@@ -30,9 +30,9 @@ function Users(props){
                 {users.map((user) =>{
                     return(
                     <ul>
-                        <li>{user.firstName}</li>
-                        <li>{user.lastName}</li>
-                        <li>{user.avatar}</li>
+                        <li key={user.firstName}>{user.firstName}</li>
+                        <li key={user.lastName}>{user.lastName}</li>
+                        <li key={user.avatar}>{user.avatar}</li>
                     </ul>);})}
             </div>
         );
