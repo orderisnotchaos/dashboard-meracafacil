@@ -1,10 +1,12 @@
 import './App.css';
 import SideBar from './components/SideBar';
+import Users from './components/Users';
 
 function App() {
   return (
     <div className="App">
       <SideBar />
+      <Users />
     </div>
   );
 }
