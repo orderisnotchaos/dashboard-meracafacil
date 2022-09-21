@@ -15,6 +15,13 @@ function SideBar(){
                     <Link to={'/'}> <span> Dashboard - Merca Fácil</span></Link>
                 </li>
                 <hr></hr>
+                
+                <div className="sidebar-heading">Productos</div>
+                <hr></hr>
+                <div className="sidebar-heading">Categorias</div>
+                <hr></hr>
+                <div className="sidebar-heading">Usuarios</div>
+                <hr></hr>
            </ul>
         </React.Fragment>
     )
