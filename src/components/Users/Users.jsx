@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 
 import "./Users.css"
 function Users(props){
@@ -9,13 +9,12 @@ function Users(props){
             
             return res.json();
         }).then(res => {
-            console.log(res[0]);
             setUsers(res);
         });
     }, []);
 
     return (
-            <div>
+            <React.Fragment>
                 <table>
                     <thead>
                         <tr className="tr-head">
@@ -48,7 +47,7 @@ function Users(props){
                     </tbody>
                 </table>
                     
-            </div>
+            </React.Fragment>
         );
 }
 
