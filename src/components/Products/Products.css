@@ -1,0 +1,32 @@
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+table {
+    border-collapse: collapse
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: black
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 2px solid black
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 5px solid black
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 2px solid black
+}
+
