@@ -1,0 +1,24 @@
+
+.black-li{
+    margin-top: 10px;
+    flex: 1 1 auto;
+    align-items: center;   
+    width: 100%;
+    min-width: 80px ;
+    height: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 10% 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+div.body{
+    display:block;
+    width: inherit;
+}
+
+div.card-black{
+    display: flex;
+
+}

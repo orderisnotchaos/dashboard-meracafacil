@@ -16,9 +16,9 @@ function Products(props){
 
     return (
         <React.Fragment>
-            <div class ="card-body">
-            <div class="table-responsive">
-                <table class="table table-bordered">
+            <div className ="card-body">
+            <div className="table-responsive">
+                <table className="table table-bordered">
                     <thead>
                         <tr>
                             <th>ID</th>

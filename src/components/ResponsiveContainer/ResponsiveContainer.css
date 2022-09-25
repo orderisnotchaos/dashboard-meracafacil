@@ -1,0 +1,15 @@
+div.responsive-box{
+    display: flex;
+    width:40vw;
+    max-height: 900px;
+    margin-top: 40px;
+}
+
+div.centered-content{
+    align-items: center;
+
+}
+div.shadow{
+    border-radius: 5% 5%;
+    box-shadow: 3px 3px #aaaaaacc;
+}

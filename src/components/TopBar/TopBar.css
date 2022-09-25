@@ -1,4 +1,29 @@
-div.navbar{
-    display: block;
-    width: 100vw;
+nav.navbar{
+    display: flex;
+    width: 85vw;
+
+    background-color: white;
+}
+
+div.topbar-divider{
+    width: 0;
+    border-right: 1px solid #e3e6f0;
+    height: calc(4.375rem - 2rem);
+    margin: auto 1rem;
+}
+
+img.img-profile{
+
+    border-radius: 50%;
+}
+
+
+.text-gray-600 {
+    color: #858796 !important;
+}
+
+ul.navbar-nav{
+    display: flex;
+    width: 100%;
+    margin-left: 70%;
 }

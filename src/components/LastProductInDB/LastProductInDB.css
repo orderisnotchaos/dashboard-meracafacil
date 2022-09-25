@@ -1,0 +1,20 @@
+img.tiny-img{
+
+    width: 80px;
+    height: 80px;
+}
+
+div.card-header{
+
+    border-bottom: 1px solid #bbbbbbcc;
+}
+div.centered-content{
+    width: inherit;
+    align-content: center;
+}
+
+h3.faded{
+
+    opacity: 70%;
+
+}

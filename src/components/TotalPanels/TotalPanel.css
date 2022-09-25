@@ -1,3 +1,71 @@
 div.wrapper{
     margin: 10px;
+    width: 25vw;
+    border-radius: 25% 10%;
+    background-color: white;
+    
+}
+
+div.flex{
+    height: inherit;
+    display: flex;
+    align-items: center !important;
+}
+
+div.card{
+
+    height: 80px;
+    width: 100%;
+}
+
+i.faded{
+    margin-left: 10%;
+    opacity: 50%;
+}
+
+div.red{
+    color: red;
+}
+
+div.blue{
+    color: blue;
+}
+
+div.green{
+    color: green;
+}
+
+div.col{
+    width: 90%;
+}
+
+div.title{
+    margin-right: 40%;
+
+}
+
+div.cuantity{
+    padding-left: 15%;
+    text-align: left;
+}
+div.card-blue{
+    border-left: 2px solid blue;
+    border-radius: 25% 10%;
+    border-top: 1px solid #aaaaaacc;
+
+    box-shadow: 3px 3px #aaaaaacc;
+}
+
+div.card-red{
+    border-left: 2px solid red;
+    border-top: 1px solid #aaaaaacc;
+    border-radius: 25% 10%;
+    box-shadow: 3px 3px #aaaaaacc;
+}
+
+div.card-green{
+    border-left: 2px solid green;
+    border-top: 1px solid #aaaaaacc;
+    border-radius: 25% 10%;
+    box-shadow: 3px 3px #aaaaaacc;
 }
