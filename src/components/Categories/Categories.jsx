@@ -9,9 +9,9 @@ function Categories(props){
             </div>
             <div className="body">
 
-                {props.categories.map((category) =>{
+                {props.categories.map((category, i) =>{
                     return(
-                        <div className="card-black">
+                        <div className="card-black" key={i}>
                             <div className="black-li">{category.name}</div>
                         </div>
                     );

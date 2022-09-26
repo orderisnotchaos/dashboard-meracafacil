@@ -24,6 +24,7 @@ function ContentWrapper(){
             
             return res.json();
         }).then(res => {
+
             setProducts(res);
         });
 
@@ -60,8 +61,9 @@ function ContentWrapper(){
                         
                         <ResponsiveContainer>
                             <LastProductInDB img={`http://127.0.0.1:8000/images/avatars/1659909830689_img.png`}
-                                             desc= {products[products.length-1].description}
-                                             title={products[products.length-1].name}/>
+                                             desc= {products.length !== 0 ? products[products.length-1].description : ""}
+                                             title={products.length !== 0 ? products[products.length-1].name : ""}
+                                             />
                         </ResponsiveContainer>
                         <ResponsiveContainer>
                             <Categories categories={categories} />
