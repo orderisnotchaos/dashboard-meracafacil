@@ -22,9 +22,9 @@ function Users(props){
                         <tr>
                              <th>ID</th>
                              <th>AVATAR</th>
-                             <th>SURNAME</th>
+                             <th>FIRST NAME</th>
+                             <th>LAST NAME</th>
                              <th>ADDRESS</th>
-                             <th>CANTIDAD</th>
                              <th>EMAIL</th>
                          </tr>
                     </thead>
@@ -33,8 +33,8 @@ function Users(props){
                             return(
                                 <tr key={i} >
                                     <td className="td-user" key={i++} >{user.id}</td>
+                                    <td className="td-user" key={i++}><img  width={40} height={40}src={"http://127.0.0.1:8000/images/avatars/1659909830689_img.png"} alt={"avatar"+ i}></img></td>
                                     <td className="td-user" key={i++}>{user.firstName}</td>
-                                    <td className="td-user" key={i++}><img  width={30} height={30}src={"http://127.0.0.1:8000/images/avatars/1659909830689_img.png"} alt={"avatar"+ i}></img></td>
                                     <td className="td-user" key={i++}>{user.lastName}</td>
                                     <td className="td-user" key={i++}>{user.address}</td>
                                     <td className="td-user" key={i++}>{user.email}</td>
