@@ -27,6 +27,6 @@ table {
 
 .table-bordered td,
 .table-bordered th {
-    border: 2px solid black
+    border: 2px solid black;
 }
 

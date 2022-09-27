@@ -1,7 +1,26 @@
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+
+.table{
+    border-radius: 35px;
+    overflow: hidden;
+    color: #32d1bb;
+    border-color: blue;
+    border-top: 10mm;
+    background-color: #c62229;
+    font-size: 25px;
+    font-weight: 750;
+   
+}
+
 .tr-user{
     display: flex;
     list-style-type: none;
     align-items: center;
+    border-collapse: collapse;
 }
 
 .td-user{
@@ -23,8 +42,7 @@
 
 .th-head{
     border-collapse: collapse;
-    border: 1px solid #e3e6f0;
-
+    border: 1px solid;
     display: table-cell;
     align-items: center;
     text-align: center;

@@ -14,39 +14,40 @@ function Users(props){
     }, []);
 
     return (
-        <React.Fragment>
-            <div className ="card-body">
-             <div className=".table-responsive-user">
-                <table className="table table-bordered">
+            <React.Fragment>
+                <table>
                     <thead>
-                        <tr>
-                             <th>ID</th>
-                             <th>AVATAR</th>
-                             <th>SURNAME</th>
-                             <th>ADDRESS</th>
-                             <th>CANTIDAD</th>
-                             <th>EMAIL</th>
-                         </tr>
+                        <tr key={i++} className="tr-head">
+                            <th key={i++} className="th-head">ID</th>
+                            <th key={i++} className="th-head">AVATAR</th>
+                            <th key={i++} className="th-head">NAME</th>
+                            <th key={i++} className="th-head">SURNAME</th>
+                            <th key={i++} className="th-head">ADDRESS</th>
+                            <th key={i++} className="th-head">EMAIL</th>
+                        </tr>
                     </thead>
                     <tbody>
-                        {users.map((user,i) =>{
+                        {users.map((user) =>{
                             return(
-                                <tr key={i} >
-                                    <td className="td-user" key={i++} >{user.id}</td>
-                                    <td className="td-user" key={i++}>{user.firstName}</td>
+
+                                <tr key={i++} className="tr-user">
+                                    <td className="td-user" key={i++}>{user.id}</td>
+                                    
                                     <td className="td-user" key={i++}><img  width={30} height={30}src={"http://127.0.0.1:8000/images/avatars/1659909830689_img.png"} alt={"avatar"+ i}></img></td>
+                                    
+                                    <td className="td-user" key={i++}>{user.firstName}</td>
+                                    
                                     <td className="td-user" key={i++}>{user.lastName}</td>
+                                    
                                     <td className="td-user" key={i++}>{user.address}</td>
+
                                     <td className="td-user" key={i++}>{user.email}</td>
                                 </tr>
                         );})}
                     </tbody>
                 </table>
                     
-             </div>
-            </div>
-            
-        </React.Fragment>
+            </React.Fragment>
         );
 }
 
