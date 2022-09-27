@@ -48,7 +48,7 @@ function ContentWrapper(){
                     </div>
 
                     <div className="row-2">
-                        <h1 className="center-left gray-faded">App Dashboard</h1>
+                        <h1 className="AppDash">App Dashboard</h1>
                     </div>
 
                     <div className="row-2">

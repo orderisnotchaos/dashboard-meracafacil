@@ -3,20 +3,32 @@ div.row{
 
 }
 
+.AppDash{
+    text-align: left;
+    text-align: center;
+    color: #c62229;
+    font-size: 30px;
+}
+
 div.row-2{
     display: flex;
     margin-left: 2%;
+    font-size: 20px;
+    font-weight: 750;
 }
 
 div#content-wrapper{
     background-color: #eeeeee;
+
 }
 
 h1.center-left{
     text-align: left;
+    
 }
 
 h1.gray-faded{
     color: #666666;
     opacity: 80%;
+    
 }
