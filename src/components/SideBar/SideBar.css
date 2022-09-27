@@ -15,18 +15,23 @@ ul, .sidebar{
 }
 a:link.clean-link{
 
-    color: #ffffffcc;
-    text-decoration: none;
+    color: white;
+    text-decoration: solid;
+    font-size: 25px;
+    font-weight: 750;
+    
 }
 
 a:hover, .clean-link{
 
-    color: #aaaaaacc;
+    color: #32d1bb;
 }
 .sidebar{
     background-color: #ff9234;
+    padding: 15px ;
 }
 
 .sidebar-heading{
     color: #ffffffcc;
+    
 }
