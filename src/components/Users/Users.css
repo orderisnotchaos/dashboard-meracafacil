@@ -5,12 +5,14 @@
 
 
 .table{
-    border-radius: 35px;
+    border-radius: 20px;
+    border-color:#c62229;
+    
     overflow: hidden;
-    color: #32d1bb;
+    color: black;
     border-color: blue;
     border-top: 10mm;
-    background-color: #c62229;
+    background-color: white;
     font-size: 25px;
     font-weight: 750;
    

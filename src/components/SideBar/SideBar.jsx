@@ -20,8 +20,6 @@ function SideBar(){
                 <hr></hr>
                 <Link to={'/products'} className="sidebar-heading clean-link"><span>Productos</span></Link>
                 <hr></hr>
-                <Link to={'/'} className="sidebar-heading clean-link"><span>Categorias</span></Link>
-                <hr></hr>
                 <Link to={'/users'} className="sidebar-heading clean-link"><span>Usuarios</span></Link>
                 <hr></hr>
             </div>
